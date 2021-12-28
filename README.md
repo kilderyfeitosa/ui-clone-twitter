@@ -1,46 +1,76 @@
-# Getting Started with Create React App
+<div align="center">  
+  <h1 align="center">
+    Ui Clone do Twitter
+  </h2>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center"> 
+⚠️ Concluído! ⚠️
+</h3>
+<div />
 
-## Available Scripts
 
-In the project directory, you can run:
+## 💻 Projeto
 
-### `yarn start`
+  Ui Clone do site Twitter, este projeto foi desenvolvido somente para estudo e aperfeiçoamento de habilidades, com base na live realizada por Guilherme Rods pelo canal da Rocketseat no YouTube, todos os direitos são reservados ao Twitter, Inc. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🎥 Demonstração
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Para visualizar em tempo real acesse: [Ui Clone Twitter](https://uiclone-twitter.netlify.app/)
 
-### `yarn test`
+<img src="https://github.com/kilderyfeitosa/ui-clone-twitter/blob/master/public/github/main-page.png" />
+<div align="center">
+  <img src="https://github.com/kilderyfeitosa/ui-clone-twitter/blob/master/public/github/menubar-responsive-main-page.png" />
+  <img src="https://github.com/kilderyfeitosa/ui-clone-twitter/blob/master/public/github/mobile-responsive-main-page.png" />
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📎 Features 
 
-### `yarn build`
+- [X] Página do Perfil
+- [x] Menu lateral à esquerda responsivo
+- [x] Feed Principal
+- [x] Menu lateral à direita responsivo
+- [x] Principais Notícias
+- [x] Sugestão de seguidores
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ⚙ Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+O editor de texto que eu recomendo é o [VSCode](https://code.visualstudio.com/).
 
-### `yarn eject`
+## 💻 Rodando a Aplicação (web)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Clone este repositório em seu ambiente
+$ git clone https://github.com/kilderyfeitosa/ui-clone-twitter.git
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Instale as dependências dentro do projeto
+$ npm ou yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Para executar a aplicação use
+$ npm start ou yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 💡 Tecnologias Utilizadas
 
-## Learn More
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- ReactJS (17.0.2)
+- Typescript
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📕 Bibliotecas
+
+Esse projeto utilizou das seguintes libs:
+
+- react-dom
+- styled-components
+- react-sticky-box
+
+## ⚖ Direitos
+
+Todos direitos são reservados a Twitter, Inc.
+<hr/>
+
+Feito por Kildery Feitosa
