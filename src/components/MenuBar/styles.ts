@@ -130,3 +130,49 @@ export const FavoriteIcon = styled(FavoriteBorder)`
 export const ProfileIcon = styled(Person)`
   ${iconCSS}
 `;
+
+export const Botside = styled.div`
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+`;
+export const Avatar = styled.div`
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: var(--gray);
+`;
+export const ProfileData = styled.div`
+  display: none;
+
+  @media (min-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 10px;
+
+    > span {
+      color: var(--gray);
+    }
+  }
+`;
+
+export const ExitIcon = styled(ExitToApp)`
+  display: none;
+
+  @media (min-width: 1280px) {
+    display: inline;
+    width: 25px;
+    height: 25px;
+    color: var(--white);
+    margin-left: 30px;
+    cursor: pointer;
+
+    &:hover {
+      > path {
+        color: var(--like);
+      }
+    }
+  }
+`;

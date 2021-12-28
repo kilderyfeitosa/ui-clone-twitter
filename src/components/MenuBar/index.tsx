@@ -30,6 +30,14 @@ const MenuBar: React.FC = () => {
         </s.MenuButton>
         <Button><span>Tweetar</span></Button>
       </s.Topside>
+      <s.Botside>
+        <s.Avatar />
+        <s.ProfileData>
+          <strong>Kildery Feitosa</strong>
+          <span>@kilderyfeitosa</span>
+        </s.ProfileData>
+        <s.ExitIcon />
+      </s.Botside>
     </s.Container>
   );
 }
